@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;}
+
+ p{
+    color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+ }   
+ button{
+    border-radius: 8px;
+background: #E55473;
+color: #fff;
+border: none;
+padding: 20px 43px ;
+cursor: pointer;
+ }
+
+header, #hot-deal{
+    background: rgba(229, 84, 115, 0.10);
+}    
+.container{
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+.section-heading{
+    max-width: 500px;
+    text-align: center;
+    margin: 20px auto;
+    
+}
+.section-heading h2{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 16px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner .banner-text *{
+    margin-bottom: 32px;
+    max-width: 525px;
+}
+.banner .banner-text h1{
+    color: #272727;
+font-family: Lato;
+font-size: 60px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+}
+.banner .banner-img img{
+    width: 100%;
+vertical-align: middle;
+}
+#featured{
+    padding: 100px 0;
+}
+.section-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    align-items: end;
+}
+    .section-content .flower .flower-img {
+        border-radius: 300px 300px 0px 0px;
+        background-color: #eb9cad;
+        padding: 30px 78px 0;
+        height: 500px;
+        display: flex;
+        align-items: end;
+    }
+    .section-content .flower .flower-img img{
+        width: 100%;
+    }
+    .section-content .flower .pink{
+        background: rgba(167, 33, 98, 0.15);
+
+
+    }
+    .section-content .flower .blue{
+       background: rgba(5, 151, 160, 0.15);
+
+
+
+    }
+    .section-content .flower .green{
+        background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    }
+    .section-content .flower P{
+        color: #272727;
+text-align: center;
+fontr-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 35px; /* 145.833% */
+text-decoration-line: underline;
+margin-top: 32px;
+    }
+  .main-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+padding: 50px;
+gap: 20px;
+margin-bottom: 128px;
+  }
+  .main-content p{
+    color: rgba(39, 39, 39, 0.80);
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 35px; /* 145.833% */
+margin-top: 24px;
+  }
+  .main-content img{
+    margin-left: 120px;
+  }
+  .hot-deal-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0;
+  }
+  #hot-deal .hot-deal-text *{
+    margin-bottom: 24px;
+  }
+  #hot-deal .hot-deal-text{
+    /* width: 75%; */
+    max-width: 550px;
+    text-align: center;
+  }
+   #hot-deal .hot-deal-text h2{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    
+   }
+   #hot-deal .hot-deal-text .important{
+    color: #E55473;
+   }
+#hot-deal .hot-deal-img{
+    max-width: 318px;
+}
+.instagram{
+    padding: 128px;
+}
+.flowe-flex{
+    display: flex;
+    gap: 24px;
+    padding-top: 48px;
+}
+.bg{
+    background-image: url(image/Rectangle\ 9.png);
+    padding: 120px 0;
+}
+#newslette{
+    margin: 128px 0;
+    
+}
+.bg form{
+    width: 800px;
+    margin: 20px auto;
+    display: flex;
+    gap: 10px;
+}
+.bg form input{
+    flex-grow: 1;
+    border: none;
+    border-radius: 3px;
+    padding: 20px;
+    font-size: 16px;
+    outline: none;
+}
+#footer{
+    background: #111010;
+    margin-top: 120px;
+  
+}
+.foot{
+text-align: center;
+padding: 128px 0;
+
+}
+.foot span{
+    color: #E55473;
+font-family: 'Lato';
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.foot h2{
+    color: #FFF;
+font-family: Lato;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 24px;
+}
+.foot p{
+    color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+max-width: 600px;
+margin: auto;
+margin-bottom: 32px;
+line-height: 30px; /* 166.667% */
+}
+.foot small{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 128px;
+}
